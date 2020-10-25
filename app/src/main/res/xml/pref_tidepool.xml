@@ -50,7 +50,6 @@
 
         <CheckBoxPreference
             android:defaultValue="true"
-            android:enabled="false"
             android:key="@string/key_tidepool_dev_servers"
             android:summary="@string/summary_tidepool_dev_servers"
             android:title="@string/title_tidepool_dev_servers" />
