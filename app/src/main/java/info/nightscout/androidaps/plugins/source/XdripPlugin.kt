@@ -51,6 +51,6 @@ class XdripPlugin @Inject constructor(
     }
 
     private fun setSource(source: String) {
-        advancedFiltering = source.contains("G5 Native") || source.contains("G6 Native")
+        advancedFiltering = source.contains("G5 Native") || source.contains("G6 Native") || source.contains("Libre2")
     }
 }
